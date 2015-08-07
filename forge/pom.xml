@@ -34,6 +34,21 @@
   <jackson.version>2.6.0</jackson.version>
   <jackson.mapper.version>1.9.13</jackson.mapper.version>
  </properties>
+ 
+ <build>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <version>3.3</version>
+        <configuration>
+          <source>${java.version}</source>
+          <target>${java.version}</target>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+  
  <dependencyManagement>
   <dependencies>
    <!-- SPRING DATA -->
