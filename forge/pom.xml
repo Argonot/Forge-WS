@@ -33,22 +33,24 @@
   <bonecp.version>0.8.0.RELEASE</bonecp.version>
   <jackson.version>2.6.0</jackson.version>
   <jackson.mapper.version>1.9.13</jackson.mapper.version>
+  <json.documentation.version>1.1.16</json.documentation.version>
+  <swagger.springmvc.version>1.0.2</swagger.springmvc.version>
  </properties>
- 
+
  <build>
-    <plugins>
-      <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-compiler-plugin</artifactId>
-        <version>3.3</version>
-        <configuration>
-          <source>${java.version}</source>
-          <target>${java.version}</target>
-        </configuration>
-      </plugin>
-    </plugins>
-  </build>
-  
+  <plugins>
+   <plugin>
+    <groupId>org.apache.maven.plugins</groupId>
+    <artifactId>maven-compiler-plugin</artifactId>
+    <version>3.3</version>
+    <configuration>
+     <source>${java.version}</source>
+     <target>${java.version}</target>
+    </configuration>
+   </plugin>
+  </plugins>
+ </build>
+
  <dependencyManagement>
   <dependencies>
    <!-- SPRING DATA -->

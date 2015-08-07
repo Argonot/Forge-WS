@@ -6,6 +6,6 @@
 <title>Argonot Forge API</title>
 </head>
 <body>
-
+<h1>Argonot Forge API</h1>
 </body>
 </html>
