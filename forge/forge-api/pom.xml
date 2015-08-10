@@ -16,6 +16,10 @@
    <groupId>${project.groupId}</groupId>
    <artifactId>forge-business</artifactId>
   </dependency>
+  <dependency>
+   <groupId>${project.groupId}</groupId>
+   <artifactId>argonot-commons</artifactId>
+  </dependency>
   <!-- Spring framework -->
   <dependency>
    <groupId>org.springframework</groupId>

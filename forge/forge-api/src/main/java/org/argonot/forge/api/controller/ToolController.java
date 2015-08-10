@@ -19,7 +19,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
  *
  */
 @Controller
-@RequestMapping("/tool")
+@RequestMapping("/tools")
 public class ToolController {
 
     @Autowired
