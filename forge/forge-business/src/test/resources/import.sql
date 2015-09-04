@@ -1,0 +1,2 @@
+INSERT INTO TOOLS(name, description, urlImage, urlTool) VALUES('tool1', 'tool2 desc', 'tool2 image', 'tool2 url');
+INSERT INTO TOOLS(name, description, urlImage, urlTool) VALUES('tool2', 'tool2 desc', 'tool2 image', 'tool2 url');
