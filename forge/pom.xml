@@ -194,7 +194,7 @@
    </dependency>
    <dependency>
     <groupId>${project.groupId}</groupId>
-    <artifactId>argonot-commons</artifactId>
+    <artifactId>forge-commons</artifactId>
     <version>${project.version}</version>
    </dependency>
   </dependencies>
@@ -202,5 +202,6 @@
  <modules>
   <module>forge-business</module>
   <module>forge-api</module>
+  <module>forge-commons</module>
  </modules>
 </project>
