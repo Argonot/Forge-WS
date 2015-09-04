@@ -1,1 +1,0 @@
-INSERT INTO TOOLS(name, description, urlImage, urlTool) VALUES('testToolName', 'testToolDesc', 'testToolUrlImage', 'testToolUrl');
