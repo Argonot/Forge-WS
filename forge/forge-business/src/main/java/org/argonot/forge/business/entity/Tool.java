@@ -91,15 +91,4 @@ public class Tool {
         this.urlTool = urlTool;
     }
 
-    @Override
-    public String toString() {
-        return "Tool{" +
-                "id=" + id +
-                ",name='" + name + '\'' +
-                ",desc='" + desc + '\'' +
-                ",urlImage='" + urlImage + '\'' +
-                ",urlTool='" + urlTool +
-                '}';
-    }
-
 }

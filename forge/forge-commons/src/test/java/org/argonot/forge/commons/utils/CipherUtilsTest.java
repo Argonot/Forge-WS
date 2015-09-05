@@ -17,6 +17,6 @@ public class CipherUtilsTest {
     @Test
     public void testDecrypt() {
         assertTrue(CipherUtils.decrypt(STR_ENCRYPTED).equals(STR_CLEAR));
-    }
+    }  
 
 }
