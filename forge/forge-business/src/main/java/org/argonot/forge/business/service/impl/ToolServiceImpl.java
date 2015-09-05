@@ -11,6 +11,11 @@ import org.argonot.forge.business.service.ToolService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+/**
+ * <b>ToolServiceImpl</b> implements ToolService
+ * @author Meidi
+ *
+ */
 @Service("ToolService")
 public class ToolServiceImpl implements ToolService {
 
