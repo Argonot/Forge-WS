@@ -1,6 +1,6 @@
 package org.argonot.forge.business.service;
 
-import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertTrue;
 
 import org.argonot.forge.business.util.AbstractRepositoryTest;
 import org.junit.Test;
@@ -14,7 +14,7 @@ public class ToolServiceTest extends AbstractRepositoryTest {
 
     @Test
     public void testGetAllToolsNotEmpty() {
-        assertFalse(CollectionUtils.isEmpty(toolService.getAllTools()));
+        assertTrue(CollectionUtils.isEmpty(toolService.getAllTools()));
     }
 
 }
