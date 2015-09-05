@@ -36,7 +36,6 @@
 		<json.documentation.version>1.1.16</json.documentation.version>
 		<swagger.springmvc.version>1.0.2</swagger.springmvc.version>
 		<jacoco.version>0.7.4.201502262128</jacoco.version>
-		<sonar.exclusions>**/*Abstract*Test.java</sonar.exclusions>
 	</properties>
 
 	<build>
