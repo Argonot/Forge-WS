@@ -14,7 +14,6 @@ public class ToolServiceTest extends AbstractRepositoryTest {
 
     @Test
     public void testGetAllToolsNotEmpty() {
-        System.out.println(toolService.getAllTools().get(0).getName());
         assertFalse(CollectionUtils.isEmpty(toolService.getAllTools()));
     }
 
