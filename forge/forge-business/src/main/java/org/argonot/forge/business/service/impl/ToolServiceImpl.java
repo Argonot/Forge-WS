@@ -38,4 +38,9 @@ public class ToolServiceImpl implements ToolService {
         return toolRepository.save(tool);
     }
 
+    @Override
+    public Tool update(Tool tool) {
+        return toolRepository.save(tool);
+    }
+
 }

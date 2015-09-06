@@ -26,4 +26,11 @@ public interface ToolService {
      */
     Tool create(Tool tool);
 
+    /**
+     * Update tool
+     * @param tool
+     * @return
+     */
+    Tool update(Tool tool);
+
 }

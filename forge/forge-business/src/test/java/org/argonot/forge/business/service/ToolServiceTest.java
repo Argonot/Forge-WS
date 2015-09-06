@@ -2,6 +2,7 @@ package org.argonot.forge.business.service;
 
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertNotNull;
+import static org.junit.Assert.assertTrue;
 
 import org.argonot.forge.business.entity.Tool;
 import org.argonot.forge.business.util.AbstractRepositoryTest;
@@ -17,6 +18,7 @@ public class ToolServiceTest extends AbstractRepositoryTest {
     private static final String TOOL_DESC = "Tool Desc";
     private static final String TOOL_NAME = "Tool Name";
     private static final Tool tool = new Tool();
+    private static final String NEW_NAME = "Sylv";
     
     @BeforeClass
     public static void setUpClass() {
@@ -37,6 +39,12 @@ public class ToolServiceTest extends AbstractRepositoryTest {
     @Test
     public void testCreateTool() {
         assertNotNull(toolService.create(tool));
+    }
+    
+    @Test
+    public void testUpdateTool() {
+        tool.setName(NEW_NAME);
+        assertTrue(toolService.update(tool).getName().equals(NEW_NAME));
     }
 
 }
