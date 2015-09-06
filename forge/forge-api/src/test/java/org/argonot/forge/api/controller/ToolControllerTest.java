@@ -2,7 +2,7 @@ package org.argonot.forge.api.controller;
 
 import static org.junit.Assert.assertFalse;
 
-import org.argonot.forge.api.commons.AbstractControllerTest;
+import org.argonot.forge.api.util.AbstractControllerTest;
 import org.json.simple.JSONArray;
 import org.json.simple.parser.JSONParser;
 import org.junit.Test;

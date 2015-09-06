@@ -1,4 +1,4 @@
-package org.argonot.forge.api.commons;
+package org.argonot.forge.api.util;
 
 import static org.springframework.test.web.ModelAndViewAssert.assertViewName;
 
@@ -18,7 +18,7 @@ import org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandl
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration(locations={"/applicationContext-dao-test.xml", "file:src/main/webapp/WEB-INF/spring-servlet.xml"})
 @WebAppConfiguration
-public class AbstractControllerTest {
+public abstract class AbstractControllerTest {
 
     @Autowired
     protected RequestMappingHandlerAdapter handlerAdapter;

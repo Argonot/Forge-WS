@@ -1,6 +1,6 @@
 package org.argonot.forge.api.controller;
 
-import org.argonot.forge.api.commons.AbstractControllerTest;
+import org.argonot.forge.api.util.AbstractControllerTest;
 import org.junit.Test;
 
 public class HomeControllerTest extends AbstractControllerTest {
