@@ -18,11 +18,12 @@
 			</roles>
 		</developer>
 	</developers>
-	
+
 	<scm>
-		<url>https://github.com/mairouche/Authentificator-WS</url>
-		<connection>scm:git:git://github.com/mairouche/Authentificator-WS.git</connection>
+		<connection>scm:git:https://github.com/mairouche/Authentificator-WS.git</connection>
 		<developerConnection>scm:git:git@github.com:mairouche/Authentificator-WS.git</developerConnection>
+		<url>https://github.com/mairouche/Authentificator-WS</url>
+		<tag>HEAD</tag>
 	</scm>
 
 	<properties>
