@@ -26,6 +26,21 @@
 		<tag>HEAD</tag>
 	</scm>
 
+	<distributionManagement>
+		<!-- use the following if you're not using a snapshot version. -->
+		<repository>
+			<id>argonot</id>
+			<name>Argonot Repository</name>
+			<url>http://62.210.36.105:8082/repository/argonot</url>
+		</repository>
+		<!-- use the following if you ARE using a snapshot version. -->
+		<snapshotRepository>
+			<id>argonot</id>
+			<name>Argonot Repository</name>
+			<url>http://62.210.36.105:8082/repository/argonot</url>
+		</snapshotRepository>
+	</distributionManagement>
+
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<spring.data.version>1.8.2.RELEASE</spring.data.version>
