@@ -35,9 +35,9 @@
 		</repository>
 		<!-- use the following if you ARE using a snapshot version. -->
 		<snapshotRepository>
-			<id>snapshots</id>
-			<name>Archiva Managed Snapshot Repository</name>
-			<url>http://62.210.36.105:8082/repository/snapshots/</url>
+			<id>argonot</id>
+			<name>Argonot Repository</name>
+			<url>http://62.210.36.105:8082/repository/argonot</url>
 		</snapshotRepository>
 	</distributionManagement>
 
