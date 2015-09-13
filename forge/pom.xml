@@ -28,15 +28,15 @@
 	<distributionManagement>
 		<!-- use the following if you're not using a snapshot version. -->
 		<repository>
-			<id>argonot</id>
-			<name>Argonot Repository</name>
-			<url>http://62.210.36.105:8082/repository/argonot</url>
+			<id>argonot-release</id>
+			<name>Argonot Release Repository</name>
+			<url>http://62.210.36.105:8082/repository/argonot-release</url>
 		</repository>
 		<!-- use the following if you ARE using a snapshot version. -->
 		<snapshotRepository>
-			<id>argonot</id>
-			<name>Argonot Repository</name>
-			<url>http://62.210.36.105:8082/repository/argonot</url>
+			<id>argonot-snapshot</id>
+			<name>Argonot Snapshot Repository</name>
+			<url>http://62.210.36.105:8082/repository/argonot-snapshot</url>
 		</snapshotRepository>
 	</distributionManagement>
 
