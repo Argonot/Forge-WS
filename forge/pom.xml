@@ -21,7 +21,7 @@
 
 	<scm>
 		<connection>scm:git:https://github.com:mairouche/Forge-WS.git</connection>
-		<developerConnection>scm:git:git@github.com:mairouche/Forge-WS.git</developerConnection>
+		<developerConnection>scm:git:https://github.com:mairouche/Forge-WS.git</developerConnection>
 		<url>http://github.com/mairouche/Forge-WS</url>
 		<tag>HEAD</tag>
 	</scm>
