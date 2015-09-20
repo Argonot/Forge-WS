@@ -62,7 +62,6 @@
 		<jsonpath.version>0.8.1</jsonpath.version>
 		<maven.compiler.plugin.version>3.3</maven.compiler.plugin.version>
 		<maven.release.plugin.version>2.3.2</maven.release.plugin.version>
-		<maven.scm.provider.gitexe.version>1.9</maven.scm.provider.gitexe.version>
 	</properties>
 
 	<build>
@@ -99,13 +98,6 @@
 				<plugin>
 					<artifactId>maven-release-plugin</artifactId>
 					<version>${maven.release.plugin.version}</version>
-					<dependencies>
-						<dependency>
-							<groupId>org.apache.maven.scm</groupId>
-							<artifactId>maven-scm-provider-gitexe</artifactId>
-							<version>${maven.scm.provider.gitexe.version}</version>
-						</dependency>
-					</dependencies>
 				</plugin>
 			</plugins>
 		</pluginManagement>
